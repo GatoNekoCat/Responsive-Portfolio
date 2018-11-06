@@ -205,3 +205,41 @@ input[type=submit]{
     background: #4aaaa5;
     border: 0 none;
 }
+@media screen and (max-width: 980px){
+    
+    .container {
+        width: auto;
+        padding: 20px;
+    }
+
+    #main-section {
+        width: auto;
+    }
+}
+@media screen and (max-width: 768px){
+    .container {
+        width: auto;
+        padding: 10px;
+    }
+
+    #main-section {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px){
+    #masthead{
+        width: auto;
+        }
+    .container {
+        width: auto;
+        padding: 10px;
+    }
+
+    #main-section {
+        width: auto;
+    }
+    #thisBox {
+    
+        margin-bottom: 10px;
+    }
+}
